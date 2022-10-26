@@ -3,9 +3,8 @@
 let Header=()=> {
     return (
       <div className="header">
-        <a href="#">Home</a>
-        <a href="#">About us</a>
-        <a href="#">Contacts</a>
+        <img src="http://qnimate.com/wp-content/uploads/2014/03/images2.jpg" width="50" height="50"></img>
+        
       </div>
     );
   }
