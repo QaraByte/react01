@@ -1,0 +1,11 @@
+.navbar{
+    grid-area: n;
+}
+
+.item{
+   background-color: aquamarine;
+}
+
+a{
+    font-family: 'Courier New', Courier, monospace;
+}

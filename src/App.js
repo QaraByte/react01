@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './Header.jsx';
-import Body from './Body';
-import Navbar from './Navbar';
+import Header from './Components/Header.jsx'
+import Body from './Components/Body';
+import Navbar from './Components/Navbar.jsx';
 
 let App=()=> {
   return (
