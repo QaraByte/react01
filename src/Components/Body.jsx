@@ -1,8 +1,10 @@
- import React from 'react';
+//  import React from 'react';
  import '../css/Body.css';
+import Footer from './Footer';
+import Posts from './Posts';
 
 let Body=()=> {
-  const REACT_VERSION = React.version;
+  
 
     return (
       <div className="body">
@@ -10,14 +12,10 @@ let Body=()=> {
           <img src='https://res.cloudinary.com/dtpgi0zck/image/upload/s--zOSmBEhk--/c_fit,h_580,w_860/v1/EducationHub/photos/pebble-beach.jpg' height="200"/>
         </div>
         <div>
-        <li className='item'>Html</li>
-        <li>CSS</li>
-        <li className='item'>JS</li>
-        <li>React</li>
+        <Posts message="First post..."/>
+        <Posts message="Second post..."/>
         </div>
-        <div>
-        React version: {REACT_VERSION}
-      </div>
+        <Footer/>
       </div>
     );
   }

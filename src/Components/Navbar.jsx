@@ -10,7 +10,7 @@ let Navbar=(props)=> {
         <div className={styles.item}>
         <a href="#">About us</a>
         </div>
-        <div className={styles.item}>
+        <div className={`${styles.item} ${styles.active}`}>
         <a href="#">Contacts</a>
         </div>
       </div>

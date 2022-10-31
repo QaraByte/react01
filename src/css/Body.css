@@ -6,6 +6,10 @@
     width: 40%;
 }
 
-li{
+/* li{
+    font-size: 18px;
+} */
+
+.item{
     font-size: 18px;
 }
