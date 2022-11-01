@@ -13,3 +13,8 @@
 .item{
     font-size: 18px;
 }
+
+.posts{
+    width: 50%;
+    display: inline-block;
+}

@@ -1,0 +1,8 @@
+.dialogs{
+    width: 30%;
+    display: inline-block;
+}
+
+.dialog{
+    background-color: beige;
+}

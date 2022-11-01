@@ -8,10 +8,13 @@ let Navbar=(props)=> {
         <a href="#">Home</a>
         </div>
         <div className={styles.item}>
-        <a href="#">About us</a>
+        <a href="about">About us</a>
         </div>
         <div className={`${styles.item} ${styles.active}`}>
         <a href="#">Contacts</a>
+        </div>
+        <div className={styles.item}>
+        <a href="dialogs">Dialogs</a>
         </div>
       </div>
     );
