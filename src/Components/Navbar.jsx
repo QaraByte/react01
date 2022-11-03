@@ -5,13 +5,13 @@ let Navbar=(props)=> {
     return (
       <div className="navbar">
         <div className={styles.item}>
-        <a href="#">Home</a>
+        <a href="/">Home</a>
         </div>
         <div className={styles.item}>
         <a href="about">About us</a>
         </div>
         <div className={`${styles.item} ${styles.active}`}>
-        <a href="#">Contacts</a>
+        <a href="posts">Posts</a>
         </div>
         <div className={styles.item}>
         <a href="dialogs">Dialogs</a>
