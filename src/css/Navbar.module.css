@@ -6,10 +6,18 @@
    background-color: aquamarine;
 }
 
+.item{
+    color: white;
+}
+
+.item a.active{
+    background-color: cyan;
+}
+
 a{
     font-family: 'Courier New', Courier, monospace;
 }
 
-.active{
+/* .active{
     background-color: coral;
-}
+} */
