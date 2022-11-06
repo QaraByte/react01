@@ -17,8 +17,8 @@ let App=()=> {
       <div className='site-wrapper-content'>
         <Routes>
           <Route path='/about' element={<About/>}/>
-          <Route path='/dialogs' element={<Dialogs/>}/>
-          <Route path='/posts' element={<Posts message="My first post"/>}/>
+          <Route path='/dialogs/*' element={<Dialogs/>}/>
+          <Route path='/posts' element={<Posts/>}/>
         </Routes>
       </div>
     </div>

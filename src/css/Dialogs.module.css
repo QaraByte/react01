@@ -1,8 +1,25 @@
 .dialogs{
-    width: 30%;
-    display: inline-block;
+    display: grid;
+    grid-template-columns: 2fr 10fr;
 }
 
 .dialog{
     background-color: beige;
+}
+
+.dialogItems .active{
+    color: cornflowerblue;
+    font-weight: 700;
+}
+
+.dialogItems{
+    padding: 10px;
+}
+
+.messages{
+    padding: 10px;
+}
+
+.message{
+    color: blueviolet;
 }

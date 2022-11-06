@@ -10,7 +10,7 @@ let Navbar=(props)=> {
           <a href="/">Home</a>
         </div>
         <div className={styles.item}>
-          <NavLink to="about" className={navData => navData.isActive ? styles.active : styles.item }>About us</NavLink>
+          <NavLink to="about" className={navData=>navData.isActive ? styles.active : styles.item }>About us</NavLink>
         </div>
         <div className={`${styles.item}`}>
           <NavLink to="posts" className={navData => navData.isActive ? styles.active : styles.item}>Posts</NavLink>
